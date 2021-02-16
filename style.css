@@ -4,7 +4,7 @@ nav {
   margin: auto;
   grid-template-columns: 1fr 3fr 1fr;
 }
-  
+
 .nav-center img {
   width: 200px;
   height: 50px;
@@ -49,11 +49,12 @@ nav {
   border-radius: 5px;
 }
 
-.nav-text a:hover {
-  text-decoration: underline;
-}
-  
 .nav-right button a {
   color: white;
   text-decoration: none;
 }
+
+.nav-text a:hover {
+    text-decoration: underline;
+}
+
