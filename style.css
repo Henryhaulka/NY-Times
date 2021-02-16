@@ -1,8 +1,12 @@
 nav {
   display: grid;
-  width: 95%;
+  width: 100%;
   margin: auto;
   grid-template-columns: 1fr 3fr 1fr;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-center img {
@@ -56,4 +60,86 @@ nav {
 
 .nav-text a:hover {
   text-decoration: underline;
+}
+
+header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 2rem;
+}
+
+.sub-header {
+  width: 40%;
+  margin: auto;
+}
+
+.sub-header1{
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  padding-top: 1.2rem;
+}
+
+.sub-header1 img {
+  width: 25px;
+  height: 20px;
+  padding-top: 7px;
+}
+
+.sub-header1 i {
+  font-size: 1rem;
+  background-color: lightgrey;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.sub-header1 i:last-child {
+  background-color: transparent;
+  }
+
+.sub-header1 i:nth-child(6) {
+  background-color: transparent;
+}
+
+.section-image {
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.section-image img {
+    width: 100%;
+}
+
+.section-image p {
+  padding-top: 0;
+  font-size: 1rem;
+  margin-top: 5px;
+  color: rgb(0, 0, 0,0.);
+  width: 70%;
+}
+
+.section-image p span {
+  color: rgb(117, 115, 115);
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+section h4 a {
+  color: black;
+}
+
+section h4 a:hover {
+  text-decoration: none;
+}
+
+section p {
+  font-size: 1.3rem;
 }
