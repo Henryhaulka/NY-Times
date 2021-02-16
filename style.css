@@ -6,7 +6,6 @@ nav {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   padding: 0;
-  margin: 0;
 }
 
 .nav-center img {
@@ -77,7 +76,7 @@ header {
   margin: auto;
 }
 
-.sub-header1{
+.sub-header1 {
   display: flex;
   justify-content: space-between;
   width: 55%;
@@ -99,10 +98,14 @@ header {
 
 .sub-header1 i:last-child {
   background-color: transparent;
-  }
+}
 
 .sub-header1 i:nth-child(6) {
   background-color: transparent;
+}
+
+section p {
+  font-size: 1.3rem;
 }
 
 .section-image {
@@ -112,14 +115,14 @@ header {
 }
 
 .section-image img {
-    width: 100%;
+  width: 100%;
 }
 
 .section-image p {
   padding-top: 0;
   font-size: 1rem;
   margin-top: 5px;
-  color: rgb(0, 0, 0,0.);
+  color: rgb(0, 0, 0,0.9);
   width: 70%;
 }
 
@@ -132,14 +135,11 @@ section {
   margin: auto;
 }
 
-section h4 a {
+section h6 a {
   color: black;
 }
 
-section h4 a:hover {
+section h6 a:hover {
   text-decoration: none;
 }
 
-section p {
-  font-size: 1.3rem;
-}
