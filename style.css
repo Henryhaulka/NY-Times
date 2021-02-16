@@ -8,16 +8,6 @@ nav {
   padding: 0;
 }
 
-.nav-text a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.nav-text a:hover {
-  text-decoration: underline;
-}
-
 .nav-center img {
   width: 200px;
   height: 50px;
@@ -31,6 +21,14 @@ nav {
   display: flex;
   padding-top: 1rem;
   justify-content: space-between;
+}
+
+section h4 a {
+  color: black;
+}
+
+section h4 a:hover {
+  text-decoration: none;
 }
 
 .nav-right {
@@ -61,12 +59,14 @@ nav {
   text-decoration: none;
 }
 
-section h4 a {
+.nav-text a {
   color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-section h4 a:hover {
-  text-decoration: none;
+.nav-text a:hover {
+  text-decoration: underline;
 }
 
 header {
