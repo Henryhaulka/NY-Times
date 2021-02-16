@@ -23,6 +23,19 @@ nav {
   justify-content: space-between;
 }
 
+.section4 a {
+  color: black;
+  text-decoration: none;
+}
+
+.nested a {
+  color: rgb(19, 19, 136);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 7px;
+}
+
 section h4 a {
   color: black;
 }
@@ -134,10 +147,6 @@ header {
   width: 70%;
 }
 
-.section-image p span {
-  color: rgb(117, 115, 115);
-}
-
 .section1 {
   width: 50%;
   margin: auto;
@@ -147,14 +156,6 @@ header {
   width: 15%;
   border-top: 1px solid grey;
   margin: auto;
-}
-
-.nested {
-  margin: auto;
-  width: 35%;
-  padding: 10px;
-  font-size: 1.1rem;
-  font-weight: bold;
 }
 
 .nested a {
@@ -189,18 +190,13 @@ header {
   font-weight: bold;
 }
 
-.section4 a {
-  color: black;
-  text-decoration: none;
-}
-
 .aside1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 5px;
 }
 
-.aside1 img{
+.aside1 img {
   width: 80%;
   height: 95%;
 }
@@ -273,6 +269,10 @@ header {
   font-weight: bold;
 }
 
+.section-image p span {
+  color: rgb(117, 115, 115);
+}
+
 .section10 {
   border-top: 1px solid black;
   width: 100px;
@@ -282,4 +282,3 @@ header {
 .section11 {
   padding-top: 1rem;
 }
-
