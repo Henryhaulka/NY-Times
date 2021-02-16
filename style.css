@@ -27,21 +27,12 @@ section h4 a {
   color: black;
 }
 
-section h4 a:hover {
-  text-decoration: none;
-}
-
 .nav-right {
   display: flex;
   padding-left: 0;
   justify-content: space-around;
   padding-top: 5px;
   text-align: right;
-}
-
-.nav-right p a {
-  color: black;
-  text-decoration: none;
 }
 
 .nav-right button {
@@ -54,14 +45,23 @@ section h4 a:hover {
   border-radius: 5px;
 }
 
+.nav-text a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .nav-right button a {
   color: white;
   text-decoration: none;
 }
 
-.nav-text a {
+.nav-right p a {
   color: black;
-  font-weight: bold;
+  text-decoration: none;
+}
+
+section h4 a:hover {
   text-decoration: none;
 }
 
