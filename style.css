@@ -316,7 +316,7 @@ header {
 }
 
 .section13 iframe {
-  width: 650px; 
+  width: 650px;
   height: 350px;
 }
 
@@ -363,7 +363,7 @@ header {
 }
 
 .section16:hover {
-  background-color: rgb(107, 106, 163,0.7);
+  background-color: rgb(107, 106, 163, 0.7);
 }
 
 .section17 {
@@ -376,7 +376,7 @@ header {
   background-color: lightgrey;
   padding: 8px;
   border-radius: 50%;
-  color:black;
+  color: black;
 }
 
 .sub-header1 a:last-child {
@@ -397,18 +397,18 @@ header {
   border: none;
 }
 
+.section17 i:hover {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  transition: ease-out 0.5s;
+}
+
 .nav-left a i:hover {
   background-color: lightgray;
   padding: 3px;
   height: 45%;
   transition: ease-out 0.5s;
   border-radius: 3px;
-}
-
-.section17 i:hover {
-  background-color: transparent;
-  border: 1px solid lightgray;
-  transition: ease-out 0.5s;
 }
 
 .section5 p:nth-child(1) {
