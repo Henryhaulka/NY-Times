@@ -1,15 +1,15 @@
 nav {
-  display: grid;
+  display: flex;
   width: 100%;
   margin: auto;
-  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: space-between;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   padding: 0;
 }
 
 .nav-center img {
-  width: 200px;
+  max-width: 100%;
   height: 50px;
 }
 
@@ -21,6 +21,20 @@ nav {
   display: flex;
   padding-top: 1rem;
   justify-content: space-between;
+  width: 20%;
+}
+
+.nav-left a {
+  background-color: transparent;
+  color: black;
+}
+
+.nav-left a i:hover {
+  background-color: lightgray;
+  padding: 3px;
+  height: 45%;
+  transition: ease-out 0.5s;
+  border-radius: 3px;
 }
 
 section h4 a {
@@ -32,6 +46,12 @@ section h4 a {
   text-decoration: none;
 }
 
+.nested {
+  width: 30%;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .nested a {
   color: rgb(19, 19, 136);
   font-weight: bold;
@@ -45,17 +65,21 @@ section h4 a {
   padding-left: 0;
   justify-content: space-around;
   padding-top: 5px;
-  text-align: right;
+  text-align: center;
+  width: 18%;
 }
 
-.nav-right button {
-  padding: 7px;
-  margin: 5px;
-  height: 35px;
+.nav-right .button1 {
+  padding: 10px;
   width: 130px;
-  background-color: rgb(89, 89, 126);
+  background-color: rgb(89, 89, 126,0.9);
   border: none;
   border-radius: 5px;
+  margin-top: 5px;
+}
+
+.nav-right .button1:hover {
+  background-color: rgb(89, 89, 126);
 }
 
 .nav-text a {
@@ -64,9 +88,11 @@ section h4 a {
   text-decoration: none;
 }
 
-.nav-right button a {
+.nav-right a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  font-size: small;
 }
 
 .nav-right p a {
@@ -104,25 +130,39 @@ header {
   padding-top: 1.2rem;
 }
 
-.sub-header1 img {
-  width: 25px;
-  height: 20px;
-  padding-top: 7px;
-}
-
 .sub-header1 i {
   font-size: 1rem;
-  background-color: lightgrey;
   padding: 7px;
+  color: black;
+}
+
+.sub-header1 a {
+  background-color: lightgrey;
   border-radius: 50%;
 }
 
-.sub-header1 i:last-child {
+.sub-header1 a:hover {
+  background-color: transparent;
+  transition: ease-out 0.5s;
+  border: 1px solid lightgray;
+}
+
+.sub-header1 a:last-child {
   background-color: transparent;
 }
 
-.sub-header1 i:nth-child(6) {
+.sub-header1 a:nth-child(6) {
   background-color: transparent;
+}
+
+.sub-header1 a:last-child:hover {
+  opacity: 0.7;
+  border: none;
+}
+
+.sub-header1 a:nth-child(6):hover {
+  opacity: 0.7;
+  border: none;
 }
 
 .section1 p {
@@ -226,6 +266,11 @@ header {
   margin: auto;
 }
 
+.section6 p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .section7 img {
   width: 100%;
   height: 600px;
@@ -279,4 +324,86 @@ header {
 
 .section11 {
   padding-top: 1rem;
+}
+
+.section12 {
+  width: 50%;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+
+.section12 p {
+  font-size: 1.3rem;
+}
+
+.section13 {
+  padding-top: 2.5rem;
+}
+
+.section12 figure {
+  padding-top: 0;
+  margin: 0;
+  color: grey;
+  padding-bottom: 3rem;
+}
+
+.section12 img {
+  width: 100%;
+}
+
+.section14 {
+  font-size: smaller;
+  color: gray;
+}
+
+.section14 a {
+  color: gray;
+}
+
+.section14 a:hover {
+  text-decoration: none;
+}
+
+.section15 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  margin-top: 1.5rem;
+}
+.section15 a {
+  text-decoration: none;
+}
+
+.section16 {
+  text-align: center;
+  background-color: rgb(107, 106, 163);
+  width: 90%;
+  margin: auto;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.section16:hover {
+  background-color: rgb(107, 106, 163,0.7);
+}
+
+.section17 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section17 i {
+  font-size: 1rem;
+  background-color: lightgrey;
+  padding: 8px;
+  border-radius: 50%;
+  color:black;
+}
+
+.section17 i:hover {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  transition: ease-out 0.5s;
 }
