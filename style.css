@@ -241,6 +241,10 @@ header {
   margin: auto;
 }
 
+.section12 p {
+  font-size: 1.3rem;
+}
+
 .section6 p:nth-child(1) {
   font-weight: bold;
   font-size: 1.2rem;
@@ -307,17 +311,13 @@ header {
   padding-top: 1.5rem;
 }
 
-.section12 p {
-  font-size: 1.3rem;
-}
-
 .section13 {
   padding-top: 2.5rem;
 }
 
 .section13 iframe {
-  width: 650; 
-  height: 350;
+  width: 650px; 
+  height: 350px;
 }
 
 .section12 figure {
@@ -336,44 +336,8 @@ header {
   color: gray;
 }
 
-.section17 i:hover {
-  background-color: transparent;
-  border: 1px solid lightgray;
-  transition: ease-out 0.5s;
-}
-
 .section4 a:hover {
   text-decoration: underline;
-}
-
-.sub-header1 a:last-child {
-  background-color: transparent;
-}
-
-.sub-header1 a:nth-child(6) {
-  background-color: transparent;
-}
-
-.sub-header1 a:last-child:hover {
-  opacity: 0.7;
-  border: none;
-}
-
-.sub-header1 a:nth-child(6):hover {
-  opacity: 0.7;
-  border: none;
-}
-
-.nav-left a i:hover {
-  background-color: lightgray;
-  padding: 3px;
-  height: 45%;
-  transition: ease-out 0.5s;
-  border-radius: 3px;
-}
-
-.section5 p:nth-child(1) {
-  font-weight: bold;
 }
 
 .section14 a:hover {
@@ -413,4 +377,40 @@ header {
   padding: 8px;
   border-radius: 50%;
   color:black;
+}
+
+.sub-header1 a:last-child {
+  background-color: transparent;
+}
+
+.sub-header1 a:nth-child(6) {
+  background-color: transparent;
+}
+
+.sub-header1 a:last-child:hover {
+  opacity: 0.7;
+  border: none;
+}
+
+.sub-header1 a:nth-child(6):hover {
+  opacity: 0.7;
+  border: none;
+}
+
+.nav-left a i:hover {
+  background-color: lightgray;
+  padding: 3px;
+  height: 45%;
+  transition: ease-out 0.5s;
+  border-radius: 3px;
+}
+
+.section17 i:hover {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  transition: ease-out 0.5s;
+}
+
+.section5 p:nth-child(1) {
+  font-weight: bold;
 }
