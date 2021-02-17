@@ -502,26 +502,26 @@ section h4 a:hover {
   transition: ease-out 0.5s;
 }
 
-.section24 h4 a:hover {
-  text-decoration: underline;
+.section6 p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.sub-header1 a:nth-child(6) {
+  background-color: transparent;
 }
 
 .sub-header1 a:last-child {
   background-color: transparent;
 }
 
-.section6 p:nth-child(1) {
-  font-weight: bold;
-  font-size: 1.2rem;
+.section24 h4 a:hover {
+  text-decoration: underline;
 }
 
 .sub-header1 a:last-child:hover {
   opacity: 0.7;
   border: none;
-}
-
-.sub-header1 a:nth-child(6) {
-  background-color: transparent;
 }
 
 .sub-header1 a:nth-child(6):hover {
