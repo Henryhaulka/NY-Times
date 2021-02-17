@@ -71,10 +71,6 @@ section h4 a {
   margin-top: 5px;
 }
 
-.nav-right .button1:hover {
-  background-color: rgb(89, 89, 126);
-}
-
 .nav-text a {
   color: black;
   font-weight: bold;
@@ -101,17 +97,13 @@ section h4 a {
   text-decoration: none;
 }
 
+.section20 a {
+  text-decoration: none;
+}
+
 .nav-right p a {
   color: black;
   text-decoration: none;
-}
-
-section h4 a:hover {
-  text-decoration: none;
-}
-
-.nav-text a:hover {
-  text-decoration: underline;
 }
 
 header {
@@ -140,12 +132,6 @@ header {
   font-size: 1rem;
   padding: 7px;
   color: black;
-}
-
-.sub-header1 a:hover {
-  background-color: transparent;
-  transition: ease-out 0.5s;
-  border: 1px solid lightgray;
 }
 
 .section1 p {
@@ -245,11 +231,6 @@ header {
   font-size: 1.3rem;
 }
 
-.section6 p:nth-child(1) {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
 .section7 img {
   width: 100%;
   height: 600px;
@@ -336,14 +317,6 @@ header {
   color: gray;
 }
 
-.section4 a:hover {
-  text-decoration: underline;
-}
-
-.section14 a:hover {
-  text-decoration: none;
-}
-
 .section15 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -389,6 +362,7 @@ header {
   padding-right: 0;
   padding-bottom: 1.5rem;
 }
+
 .section19 {
   display: flex;
   justify-content: space-between;
@@ -461,11 +435,7 @@ header {
   color: black;
 }
 
-.section20 a {
-  text-decoration: none;
-}
-
-.section24 h4 a{
+.section24 h4 a {
   text-decoration: none;
 }
 
@@ -514,7 +484,7 @@ header {
   padding: 10px;
   border-top: 1px solid black;
   margin-top: 0;
-  padding-top: 17px;
+  padding-top: 15px;
 }
 
 .section28 div {
@@ -524,6 +494,34 @@ header {
 .section25 h4 a {
   text-decoration: none;
 }
+
+.nav-right .button1:hover {
+  background-color: rgb(89, 89, 126);
+}
+
+.sub-header1 a:hover {
+  background-color: transparent;
+  transition: ease-out 0.5s;
+  border: 1px solid lightgray;
+}
+
+section h4 a:hover {
+  text-decoration: none;
+}
+
+.nav-text a:hover {
+  text-decoration: underline;
+}
+
+
+.section4 a:hover {
+  text-decoration: underline;
+}
+
+.section14 a:hover {
+  text-decoration: none;
+}
+
 
 .section23 h4:hover {
   opacity: 0.8;
@@ -580,4 +578,9 @@ header {
 
 .section5 p:nth-child(1) {
   font-weight: bold;
+}
+
+.section6 p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
