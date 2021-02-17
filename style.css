@@ -24,20 +24,12 @@ nav {
   width: 20%;
 }
 
-.nav-left a {
-  background-color: transparent;
+section h4 a {
   color: black;
 }
 
-.nav-left a i:hover {
-  background-color: lightgray;
-  padding: 3px;
-  height: 45%;
-  transition: ease-out 0.5s;
-  border-radius: 3px;
-}
-
-section h4 a {
+.nav-left a {
+  background-color: transparent;
   color: black;
 }
 
@@ -52,6 +44,7 @@ section h4 a {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 .nested a {
   color: rgb(19, 19, 136);
   font-weight: bold;
@@ -72,7 +65,7 @@ section h4 a {
 .nav-right .button1 {
   padding: 10px;
   width: 130px;
-  background-color: rgb(89, 89, 126,0.9);
+  background-color: rgb(89, 89, 126, 0.9);
   border: none;
   border-radius: 5px;
   margin-top: 5px;
@@ -88,11 +81,24 @@ section h4 a {
   text-decoration: none;
 }
 
+.sub-header1 a {
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+
 .nav-right a {
   color: white;
   text-decoration: none;
   text-align: center;
   font-size: small;
+}
+
+.section14 a {
+  color: gray;
+}
+
+.section15 a {
+  text-decoration: none;
 }
 
 .nav-right p a {
@@ -136,33 +142,10 @@ header {
   color: black;
 }
 
-.sub-header1 a {
-  background-color: lightgrey;
-  border-radius: 50%;
-}
-
 .sub-header1 a:hover {
   background-color: transparent;
   transition: ease-out 0.5s;
   border: 1px solid lightgray;
-}
-
-.sub-header1 a:last-child {
-  background-color: transparent;
-}
-
-.sub-header1 a:nth-child(6) {
-  background-color: transparent;
-}
-
-.sub-header1 a:last-child:hover {
-  opacity: 0.7;
-  border: none;
-}
-
-.sub-header1 a:nth-child(6):hover {
-  opacity: 0.7;
-  border: none;
 }
 
 .section1 p {
@@ -244,10 +227,6 @@ header {
   padding-right: 5px;
 }
 
-.section4 a:hover {
-  text-decoration: underline;
-}
-
 .section5 {
   width: 50%;
   margin: auto;
@@ -255,10 +234,6 @@ header {
 
 .section5 p {
   font-size: 1.3rem;
-}
-
-.section5 p:nth-child(1) {
-  font-weight: bold;
 }
 
 .section6 {
@@ -340,6 +315,11 @@ header {
   padding-top: 2.5rem;
 }
 
+.section13 iframe {
+  width: 650; 
+  height: 350;
+}
+
 .section12 figure {
   padding-top: 0;
   margin: 0;
@@ -356,8 +336,44 @@ header {
   color: gray;
 }
 
-.section14 a {
-  color: gray;
+.section17 i:hover {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  transition: ease-out 0.5s;
+}
+
+.section4 a:hover {
+  text-decoration: underline;
+}
+
+.sub-header1 a:last-child {
+  background-color: transparent;
+}
+
+.sub-header1 a:nth-child(6) {
+  background-color: transparent;
+}
+
+.sub-header1 a:last-child:hover {
+  opacity: 0.7;
+  border: none;
+}
+
+.sub-header1 a:nth-child(6):hover {
+  opacity: 0.7;
+  border: none;
+}
+
+.nav-left a i:hover {
+  background-color: lightgray;
+  padding: 3px;
+  height: 45%;
+  transition: ease-out 0.5s;
+  border-radius: 3px;
+}
+
+.section5 p:nth-child(1) {
+  font-weight: bold;
 }
 
 .section14 a:hover {
@@ -369,9 +385,6 @@ header {
   grid-template-columns: 2fr 1fr;
   grid-gap: 10px;
   margin-top: 1.5rem;
-}
-.section15 a {
-  text-decoration: none;
 }
 
 .section16 {
@@ -400,10 +413,4 @@ header {
   padding: 8px;
   border-radius: 50%;
   color:black;
-}
-
-.section17 i:hover {
-  background-color: transparent;
-  border: 1px solid lightgray;
-  transition: ease-out 0.5s;
 }
