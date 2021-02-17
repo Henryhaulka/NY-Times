@@ -353,7 +353,7 @@ header {
 
 .section16 {
   text-align: center;
-  background-color: rgb(107, 106, 163);
+  background-color: rgb(107, 106, 163, 0.9);
   width: 90%;
   margin: auto;
   padding: 7px;
@@ -363,7 +363,7 @@ header {
 }
 
 .section16:hover {
-  background-color: rgb(107, 106, 163, 0.7);
+  background-color: rgb(107, 106, 163);
 }
 
 .section17 {
@@ -377,6 +377,173 @@ header {
   padding: 8px;
   border-radius: 50%;
   color: black;
+}
+
+.section18 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  padding-top: 5rem;
+  width: 95%;
+  margin: auto;
+  padding-right: 0;
+  padding-bottom: 1.5rem;
+}
+.section19 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.1rem;
+  border-top: 1px solid black;
+}
+
+.section20 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7px;
+}
+
+.section21 {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.section22 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section24 {
+  margin-top: 5rem;
+  border-top: 1px solid black;
+}
+
+.section25 {
+  border-top: 1px solid black;
+  margin-top: 2.5rem;
+}
+
+.section23 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 1rem;
+}
+
+.section21 p {
+  color: gray;
+  
+}
+
+.section21 h4 {
+  color: black;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.section22 img {
+  width: 50%;
+}
+
+.section23 img {
+  width: 100%;
+}
+
+.section22 i {
+  font-size: 1.3rem;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 50%;
+  height: 1.7rem;
+  width: 15%;
+  color: black;
+}
+
+.section20 a {
+  text-decoration: none;
+}
+
+.section24 h4 a{
+  text-decoration: none;
+}
+
+.section23 a {
+  text-decoration: none;
+}
+
+.section28 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section19 p a{
+  text-decoration: none;
+  color: grey;
+}
+
+.section23 figcaption {
+  color: grey;
+  float: right;
+  font-size: 0.8rem;
+}
+
+.section23 p {
+  color: grey;
+  font-size: 0.8rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.section23 h4 {
+  color: black;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.section28 p {
+  font-size: 1.2rem;
+  border-bottom: 1px solid lightgray;
+  padding-left: 5px;
+  padding-bottom: 1.5rem;
+}
+
+.section28 h4 {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-top: 1px solid black;
+  margin-top: 0;
+  padding-top: 17px;
+}
+
+.section28 div {
+  padding-left: 5px;
+}
+
+.section25 h4 a {
+  text-decoration: none;
+}
+
+.section23 h4:hover {
+  opacity: 0.8;
+}
+
+.section22 i:hover {
+  background-color: black;
+  color: white;
+  transition: ease-out 0.5s;
+}
+
+.section24 h4 a:hover {
+  text-decoration: underline;
+}
+
+.section25 h4 a:hover {
+  text-decoration: underline;
+}
+.section28 p:hover {
+  opacity: 0.7;
 }
 
 .sub-header1 a:last-child {
