@@ -502,6 +502,10 @@ section h4 a:hover {
   transition: ease-out 0.5s;
 }
 
+.section24 h4 a:hover {
+  text-decoration: underline;
+}
+
 .section6 p:nth-child(1) {
   font-weight: bold;
   font-size: 1.2rem;
@@ -523,10 +527,6 @@ section h4 a:hover {
 .sub-header1 a:nth-child(6):hover {
   opacity: 0.7;
   border: none;
-}
-
-.section24 h4 a:hover {
-  text-decoration: underline;
 }
 
 .section17 i:hover {
