@@ -13,7 +13,7 @@ This page is a clone of newyork times article. In this project we applied float,
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://henryhaulka.github.io/NY-Times/)
 
 
 ## Getting Started
