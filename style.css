@@ -194,13 +194,13 @@ header {
   margin: auto;
 }
 
-#inside {
+.inside {
   width: 15%;
   border-top: 1px solid grey;
   margin: auto;
 }
 
-#insider {
+.insider {
   width: 15%;
   border-top: 1px solid grey;
   margin: auto;
@@ -669,6 +669,10 @@ section h4 a:hover {
   background-color: black;
   color: white;
   transition: ease-out 0.5s;
+}
+
+.section31 div:nth-child(1) {
+  font-weight: bold;
 }
 
 .section6 p:nth-child(1) {
