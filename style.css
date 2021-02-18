@@ -6,6 +6,8 @@ nav {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   padding: 0;
+  position: fixed;
+  background-color: white;
 }
 
 .nav-center img {
@@ -24,18 +26,14 @@ nav {
   width: 20%;
 }
 
-section h4 a {
-  color: black;
-}
-
 .nav-left a {
   background-color: transparent;
-  color: black;
 }
 
-.section4 a {
+section h4 a,
+.section4 a,
+.nav-left a {
   color: black;
-  text-decoration: none;
 }
 
 .nested {
@@ -93,21 +91,16 @@ section h4 a {
   color: gray;
 }
 
-.section15 a {
-  text-decoration: none;
-}
-
-.section20 a {
-  text-decoration: none;
-}
-
-.section23 a {
+.section4 a,
+.section15 a,
+.section20 a,
+.section23 a,
+.nav-right p a {
   text-decoration: none;
 }
 
 .nav-right p a {
   color: black;
-  text-decoration: none;
 }
 
 header {
@@ -390,7 +383,7 @@ header {
 
 .section25 {
   border-top: 1px solid black;
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 
 .section23 {
@@ -430,7 +423,8 @@ header {
   color: black;
 }
 
-.section24 h4 a {
+.section24 h4 a,
+.section25 h4 a {
   text-decoration: none;
 }
 
@@ -515,7 +509,8 @@ section h4 a:hover {
   background-color: transparent;
 }
 
-.section24 h4 a:hover {
+.section24 h4 a:hover,
+.section25 h4 a:hover {
   text-decoration: underline;
 }
 
