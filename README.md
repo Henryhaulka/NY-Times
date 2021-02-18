@@ -1,6 +1,6 @@
 # Newyork Times Article Clone
 
-![screenshot](img/NY_times.png)
+![screenshot](img/NY_times1.png)
 
 
 This page is a clone of newyork times article. In this project we applied float,
