@@ -10,6 +10,13 @@ nav {
   background-color: white;
 }
 
+footer img {
+  padding-top: 0;
+  margin-top: 0;
+  height: 70px;
+  width: 220px;
+}
+
 .nav-center img {
   max-width: 100%;
   height: 50px;
@@ -24,6 +31,15 @@ nav {
   padding-top: 1rem;
   justify-content: space-between;
   width: 20%;
+}
+
+footer a,
+.section4 a,
+.section15 a,
+.section20 a,
+.section23 a,
+.section26 a {
+  text-decoration: none;
 }
 
 section h4 a,
@@ -96,21 +112,15 @@ section h4 a,
   font-size: small;
 }
 
-.section4 a,
-.section15 a,
-.section20 a,
-.section23 a,
-.section26 a,
-footer a,
-.nav-right p a {
-  text-decoration: none;
-}
-
 .section30 a,
 .section32 a,
 .section26 p a,
 .nav-right p a {
   color: black;
+}
+
+.nav-right p a {
+  text-decoration: none;
 }
 
 header {
@@ -407,13 +417,6 @@ footer {
   margin: auto;
 }
 
-footer img {
-  padding-top: 0;
-  margin-top: 0;
-  height: 70px;
-  width: 220px;
-}
-
 .section27 {
   border-bottom: 2px solid lightgrey;
 }
@@ -485,7 +488,7 @@ footer img {
   opacity: 0.8;
 }
 
-.section32> div {
+.section32 div {
   padding-bottom: 7px;
 }
 
