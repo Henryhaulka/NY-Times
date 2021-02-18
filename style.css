@@ -95,10 +95,12 @@ section h4 a,
 .section15 a,
 .section20 a,
 .section23 a,
+.section26 a,
 .nav-right p a {
   text-decoration: none;
 }
 
+.section26 p a,
 .nav-right p a {
   color: black;
 }
@@ -343,7 +345,7 @@ header {
 
 .section18 {
   display: grid;
-  grid-template-columns: 3fr 1.7fr;
+  grid-template-columns: 3fr 1.5fr;
   grid-gap: 20px;
   padding-top: 5rem;
   width: 95%;
@@ -384,6 +386,16 @@ header {
 .section25 {
   border-top: 1px solid black;
   margin-top: 1rem;
+}
+
+.section26 {
+  margin-left: 10px;
+  padding-right: 10px;
+  border-top: 1px solid black;
+}
+
+.section26 h4 {
+  margin-top: 18px;
 }
 
 .section23 {
@@ -446,6 +458,14 @@ header {
   margin-top: 0;
 }
 
+.section26 p {
+  font-size: 1.27rem;
+}
+
+.section26 div {
+  border-bottom: 1px solid lightgray;
+}
+
 .section23 h4 {
   color: black;
   padding-bottom: 10px;
@@ -486,7 +506,8 @@ section h4 a:hover {
   background-color: rgb(89, 89, 126);
 }
 
-.section23 h4:hover {
+.section23 h4:hover,
+.section26 p:hover {
   opacity: 0.8;
 }
 
