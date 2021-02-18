@@ -26,15 +26,16 @@ nav {
   width: 20%;
 }
 
-.nav-left a {
-  background-color: transparent;
-}
-
 section h4 a,
 .section4 a,
 .nav-left a {
   color: black;
 }
+
+.nav-left a {
+  background-color: transparent;
+}
+
 
 .nested {
   width: 30%;
