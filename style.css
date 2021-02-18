@@ -33,13 +33,16 @@ footer img {
   width: 20%;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 section h4 a,
 .section4 a,
 .nav-left a {
   color: black;
 }
 
-footer a,
 .section4 a,
 .section15 a,
 .section20 a,
