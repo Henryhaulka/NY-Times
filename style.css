@@ -122,6 +122,10 @@ section h4 a,
   color: black;
 }
 
+.footer-section a {
+  color: grey;
+}
+
 .nav-right p a {
   text-decoration: none;
 }
@@ -480,6 +484,19 @@ footer {
   width: 100%;
 }
 
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: smaller;
+  opacity: 0.7;
+  padding-top: 10px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid lightgray;
+  margin-top: 1rem;
+}
+
 .sub-section2 img {
   width: 30px;
   height: 30px;
@@ -594,6 +611,10 @@ footer {
 
 .section-image p span {
   color: rgb(117, 115, 115);
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 section h4 a:hover {
