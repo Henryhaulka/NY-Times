@@ -91,15 +91,23 @@ section h4 a,
   color: gray;
 }
 
+.section29 a {
+  color: rgb(88, 138, 110);
+  font-size: small;
+}
+
 .section4 a,
 .section15 a,
 .section20 a,
 .section23 a,
 .section26 a,
+footer a,
 .nav-right p a {
   text-decoration: none;
 }
 
+.section30 a,
+.section32 a,
 .section26 p a,
 .nav-right p a {
   color: black;
@@ -394,6 +402,93 @@ header {
   border-top: 1px solid black;
 }
 
+footer {
+  width: 95%;
+  margin: auto;
+}
+
+footer img {
+  padding-top: 0;
+  margin-top: 0;
+  height: 70px;
+  width: 220px;
+}
+
+.section27 {
+  border-bottom: 2px solid lightgrey;
+}
+
+.section28 {
+  border-top: 1px solid lightgrey;
+  margin-top: 2px;
+}
+
+.section29 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section30 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 1rem;
+}
+
+.section32 {
+  border-left: 1px solid lightgrey;
+  padding-left: 10px;
+}
+
+.section33 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.sub-section1 i {
+  padding-left: 5px;
+  padding-right: 12px;
+}
+
+.sub-section2 {
+  display: flex;
+}
+
+.sub-section5 {
+  padding-left: 5px;
+  font-size: smaller;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.sub-section6 {
+  padding-left: 5px;
+  font-size: smaller;
+  padding-bottom: 7px;
+}
+
+.sub-section7 {
+  padding-top: 10px;
+  margin-top:10px;
+  border-top: 1px solid lightgrey;
+  width: 100%;
+}
+
+.sub-section2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.section29 i {
+  font-size: x-small;
+  color: black;
+  opacity: 0.8;
+}
+
+.section32> div {
+  padding-bottom: 7px;
+}
+
 .section26 h4 {
   margin-top: 18px;
 }
@@ -435,6 +530,15 @@ header {
   color: black;
 }
 
+.section31 div {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.section32 span {
+  font-weight: bold;
+}
+
 .section24 h4 a,
 .section25 h4 a {
   text-decoration: none;
@@ -470,6 +574,16 @@ header {
   color: black;
   padding-bottom: 10px;
   margin-bottom: 0;
+}
+
+.sub-section3 i {
+  padding-left: 5px;
+  padding-right: 8px;
+}
+
+.sub-section4 i {
+  padding-left: 7px
+  ;padding-right: 14px;
 }
 
 .section-image p span {
