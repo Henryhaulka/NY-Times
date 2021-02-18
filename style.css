@@ -33,6 +33,12 @@ footer img {
   width: 20%;
 }
 
+section h4 a,
+.section4 a,
+.nav-left a {
+  color: black;
+}
+
 footer a,
 .section4 a,
 .section15 a,
@@ -40,12 +46,6 @@ footer a,
 .section23 a,
 .section26 a {
   text-decoration: none;
-}
-
-section h4 a,
-.section4 a,
-.nav-left a {
-  color: black;
 }
 
 .nav-left a {
@@ -472,7 +472,7 @@ footer {
 
 .sub-section7 {
   padding-top: 10px;
-  margin-top:10px;
+  margin-top: 10px;
   border-top: 1px solid lightgrey;
   width: 100%;
 }
@@ -585,8 +585,8 @@ footer {
 }
 
 .sub-section4 i {
-  padding-left: 7px
-  ;padding-right: 14px;
+  padding-left: 7px;
+  padding-right: 14px;
 }
 
 .section-image p span {
