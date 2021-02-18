@@ -73,19 +73,28 @@ section h4 a,
 .nav-right {
   display: flex;
   padding-left: 0;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 5px;
   text-align: center;
-  width: 18%;
+  width: 20%;
+  margin-right: 3px;
 }
 
-.nav-right .button1 {
+.nav-right .button1,
+.nav-right .button2 {
   padding: 10px;
-  width: 130px;
   background-color: rgb(89, 89, 126, 0.9);
   border: none;
   border-radius: 5px;
   margin-top: 5px;
+}
+
+.nav-right .button1 {
+  width: 130px;
+}
+
+.nav-right .button2 {
+  width: 50px;
 }
 
 .nav-text a {
@@ -449,6 +458,10 @@ footer {
   padding-left: 10px;
 }
 
+.section31 {
+  font-size: 0.9rem;
+}
+
 .section33 {
   font-weight: bold;
   padding-bottom: 10px;
@@ -642,7 +655,8 @@ section h4 a:hover {
   background-color: rgb(107, 106, 163);
 }
 
-.nav-right .button1:hover {
+.nav-right .button1:hover,
+.nav-right .button2:hover {
   background-color: rgb(89, 89, 126);
 }
 
