@@ -1,8 +1,6 @@
 nav {
-  display: flex;
   width: 100%;
   margin: auto;
-  justify-content: space-between;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   padding: 0;
@@ -28,13 +26,16 @@ footer img {
 }
 
 .nav-left {
-  display: flex;
   padding-top: 1rem;
-  justify-content: space-between;
   width: 20%;
 }
 
-footer a {
+footer a
+.section4 a,
+.section15 a,
+.section20 a,
+.section23 a,
+.section26 a {
   text-decoration: none;
 }
 
@@ -42,14 +43,6 @@ section h4 a,
 .section4 a,
 .nav-left a {
   color: black;
-}
-
-.section4 a,
-.section15 a,
-.section20 a,
-.section23 a,
-.section26 a {
-  text-decoration: none;
 }
 
 .sub-section2 a {
@@ -103,7 +96,6 @@ section h4 a,
 }
 
 .nav-text a {
-  color: black;
   font-weight: bold;
   text-decoration: none;
 }
@@ -133,11 +125,13 @@ section h4 a,
   color: grey;
 }
 
+.nav-text a,
 .section30 a,
 .section32 a,
 .section26 p a,
 .nav-right p a {
   color: black;
+  text-decoration: none;
 }
 
 .nav-right p a {
@@ -160,8 +154,6 @@ header {
 }
 
 .sub-header1 {
-  display: flex;
-  justify-content: space-between;
   width: 55%;
   padding-top: 1.2rem;
 }
@@ -281,8 +273,6 @@ header {
 .section8 {
   position: absolute;
   top: 30%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .section8 div {
@@ -297,8 +287,6 @@ header {
 .section9 {
   position: absolute;
   bottom: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .section9 div {
@@ -369,11 +357,6 @@ header {
   font-weight: bold;
 }
 
-.section17 {
-  display: flex;
-  justify-content: space-between;
-}
-
 .section17 i {
   font-size: 1rem;
   background-color: lightgrey;
@@ -393,9 +376,20 @@ header {
   padding-bottom: 1.5rem;
 }
 
-.section19 {
+nav,
+.nav-left,
+.sub-header1,
+.section8,
+.section9,
+.section17,
+.section19,
+.section22,
+.section29  {
   display: flex;
   justify-content: space-between;
+}
+
+.section19 {
   padding-top: 0.1rem;
   border-top: 1px solid black;
 }
@@ -410,11 +404,6 @@ header {
   border: 1px solid lightgray;
   padding: 1rem;
   border-radius: 10px;
-}
-
-.section22 {
-  display: flex;
-  justify-content: space-between;
 }
 
 .section24 {
@@ -447,11 +436,6 @@ footer {
   margin-top: 2px;
 }
 
-.section29 {
-  display: flex;
-  justify-content: space-between;
-}
-
 .section30 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -482,13 +466,12 @@ footer {
   display: flex;
 }
 
-.sub-section5 {
-  padding-left: 5px;
-  font-size: smaller;
+.sub-section5,
+.sub-section7 {
   padding-top: 10px;
-  padding-bottom: 7px;
 }
 
+.sub-section5,
 .sub-section6 {
   padding-left: 5px;
   font-size: smaller;
@@ -496,10 +479,8 @@ footer {
 }
 
 .sub-section7 {
-  padding-top: 10px;
   margin-top: 10px;
   border-top: 1px solid lightgrey;
-  width: 100%;
 }
 
 .footer-section {
@@ -580,24 +561,23 @@ footer {
 }
 
 .section24 h4 a,
-.section25 h4 a {
+.section25 h4 a,
+.section19 p a  {
   text-decoration: none;
 }
 
 .section19 p a {
-  text-decoration: none;
   color: grey;
 }
 
-.section23 span {
+.section23 span,
+.section23 p {
   color: grey;
   float: right;
   font-size: 0.8rem;
 }
 
 .section23 p {
-  color: grey;
-  font-size: 0.8rem;
   padding-top: 0;
   margin-top: 0;
 }
@@ -630,30 +610,21 @@ footer {
   color: rgb(117, 115, 115);
 }
 
-footer a:hover {
+footer a:hover,
+.nav-text a:hover,
+.section4 a:hover {
   text-decoration: underline;
 }
 
-section h4 a:hover {
+section h4 a:hover,
+.section14 a:hover {
   text-decoration: none;
-}
-
-.nav-text a:hover {
-  text-decoration: underline;
 }
 
 .sub-header1 a:hover {
   background-color: transparent;
   transition: ease-out 0.5s;
   border: 1px solid lightgray;
-}
-
-.section4 a:hover {
-  text-decoration: underline;
-}
-
-.section14 a:hover {
-  text-decoration: none;
 }
 
 .section16:hover {
@@ -676,12 +647,12 @@ section h4 a:hover {
   transition: ease-out 0.5s;
 }
 
-.section31 div:nth-child(1) {
+.section31 div:nth-child(1),
+.section6 p:nth-child(1) {
   font-weight: bold;
 }
 
 .section6 p:nth-child(1) {
-  font-weight: bold;
   font-size: 1.2rem;
 }
 
@@ -689,7 +660,8 @@ section h4 a:hover {
   background-color: transparent;
 }
 
-.sub-header1 a:last-child {
+.sub-header1 a:last-child,
+.section17 i:hover {
   background-color: transparent;
 }
 
@@ -698,27 +670,21 @@ section h4 a:hover {
   text-decoration: underline;
 }
 
-.sub-header1 a:last-child:hover {
-  opacity: 0.7;
-  border: none;
-}
-
+.sub-header1 a:last-child:hover,
 .sub-header1 a:nth-child(6):hover {
   opacity: 0.7;
   border: none;
 }
 
-.section17 i:hover {
-  background-color: transparent;
+.section17 i:hover,
+.nav-left a i:hover {
   border: 1px solid lightgray;
   transition: ease-out 0.5s;
 }
 
 .nav-left a i:hover {
-  background-color: lightgray;
   padding: 3px;
   height: 45%;
-  transition: ease-out 0.5s;
   border-radius: 3px;
 }
 
