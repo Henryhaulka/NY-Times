@@ -27,10 +27,22 @@ footer img {
   text-align: center;
 }
 
-.nav-left {
+nav,
+.nav-left,
+.sub-header1,
+.section8,
+.section9,
+.section17,
+.section19,
+.section22,
+.section29,
+.footer-section {
   display: flex;
-  padding-top: 1rem;
   justify-content: space-between;
+}
+
+.nav-left {
+  padding-top: 1rem;
   width: 20%;
 }
 
@@ -74,6 +86,8 @@ section h4 a,
   text-decoration: none;
   padding-left: 7px;
 }
+
+
 
 .nav-right {
   display: flex;
@@ -160,8 +174,6 @@ header {
 }
 
 .sub-header1 {
-  display: flex;
-  justify-content: space-between;
   width: 55%;
   padding-top: 1.2rem;
 }
@@ -281,8 +293,6 @@ header {
 .section8 {
   position: absolute;
   top: 30%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .section8 div {
@@ -297,8 +307,6 @@ header {
 .section9 {
   position: absolute;
   bottom: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .section9 div {
@@ -369,11 +377,6 @@ header {
   font-weight: bold;
 }
 
-.section17 {
-  display: flex;
-  justify-content: space-between;
-}
-
 .section17 i {
   font-size: 1rem;
   background-color: lightgrey;
@@ -394,8 +397,6 @@ header {
 }
 
 .section19 {
-  display: flex;
-  justify-content: space-between;
   padding-top: 0.1rem;
   border-top: 1px solid black;
 }
@@ -410,11 +411,6 @@ header {
   border: 1px solid lightgray;
   padding: 1rem;
   border-radius: 10px;
-}
-
-.section22 {
-  display: flex;
-  justify-content: space-between;
 }
 
 .section24 {
@@ -445,11 +441,6 @@ footer {
 .section28 {
   border-top: 1px solid lightgrey;
   margin-top: 2px;
-}
-
-.section29 {
-  display: flex;
-  justify-content: space-between;
 }
 
 .section30 {
@@ -503,8 +494,6 @@ footer {
 }
 
 .footer-section {
-  display: flex;
-  justify-content: space-between;
   margin: auto;
   font-size: smaller;
   opacity: 0.7;
