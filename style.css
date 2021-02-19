@@ -51,6 +51,10 @@ section h4 a,
   text-decoration: none;
 }
 
+.sub-section2 a {
+  margin-top: 5px;
+}
+
 .nav-left a {
   background-color: transparent;
 }
