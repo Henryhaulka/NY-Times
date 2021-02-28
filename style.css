@@ -76,6 +76,50 @@ section h4 a,
   padding-bottom: 1rem;
 }
 
+form {
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  background: linear-gradient(rgb(11, 112, 11, 0.8), rgb(0, 0, 0, 0.8));
+  border-radius: 15px;
+}
+
+.form-input {
+  width: 80%;
+  margin: auto;
+}
+
+.form-input2 {
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+.send-button {
+  background-color: green;
+  text-align: center;
+  width: 30%;
+  padding: 7px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.form-input textarea {
+  width: 82%;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.form-input input {
+  width: 80%;
+  margin: 7px 5px 7px 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
 .nested a {
   color: rgb(19, 19, 136);
   font-weight: bold;
@@ -204,6 +248,7 @@ header {
 .section1 {
   width: 50%;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 .inside {
@@ -653,7 +698,8 @@ section h4 a:hover {
 }
 
 .section23 h4:hover,
-.section26 p:hover {
+.section26 p:hover,
+.send-button:hover {
   opacity: 0.8;
 }
 
